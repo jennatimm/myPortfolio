@@ -1,68 +1,67 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
+@theme {
+  --color-border: hsl(var(--border));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-card: hsl(var(--card));
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+@layer base {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --primary: 12, 20%, 19%; /* rgb(59, 43, 39) */
+    --secondary: 12, 20%, 19%; /* rgb(59, 43, 39) */
+    --foreground: 12, 20%, 19%; /* rgb(59, 43, 39) */
+    --background: 330, 15%, 90%; /* rgb(233, 225, 229) */
+    --tertiary: 328, 18%, 86%; /* rgb(225, 212, 219)*/
+    --toggle: 272, 17%, 27%; /* rgb(68, 56, 79) */
+
+    --card: 0 0% 100%;
+    --primary-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
   }
-  a:hover {
-    color: #747bff;
+  .dark {
+    --primary: 272, 4%, 21%; /* rgb(54, 52, 56) */
+    --secondary: 272, 4%, 21%; /* rgb(54, 52, 56) */
+    --foreground: 272, 4%, 21%; /* rgb(54, 52, 56) */
+    --background: 272, 17%, 27%; /* rgb(68, 56, 79) */
+    --tertiary: 272, 18%, 40%; /* rgb(103, 83, 120)*/
+    --toggle: 330, 15%, 90%; /* rgb(233, 225, 229) */
+
+    --card: 222 47% 4%;
+    --primary-foreground: 213 31% 91%;
+    --border: 217 33% 20%;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+
 }
+  @utility container {
+    margin-inline: auto;
+    padding-in-line: 2rem;
+    @media (width >= 640px) {
+      max-width: 640px;
+    }
+    @media (width >= 768px) {
+      max-width: 768px;
+    }
+    @media (width >= 1024px) {
+      max-width: 1024px;
+    }
+    @media (width >= 1280px) {
+      max-width: 1280px;
+    }
+    @media (width >= 1400px) {
+      max-width: 1400px;
+    }
+  }
+
+  #root {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align:center;
+  }
+
