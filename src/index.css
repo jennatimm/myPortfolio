@@ -7,8 +7,6 @@
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
   --color-card: hsl(var(--card));
-
-
 }
 
 @layer base {
@@ -37,6 +35,18 @@
     --border: 217 33% 20%;
   }
 
+  * {
+    @apply border-border;
+  } 
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
 }
   @utility container {
     margin-inline: auto;
@@ -56,6 +66,19 @@
     @media (width >= 1400px) {
       max-width: 1400px;
     }
+  }
+  @utility text-glow {
+    position: relative;
+    text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+  }
+  @utility card-hover {
+    @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
+  }
+  @utility gradient-border {
+    @apply relative rounded-md;
+    background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
+    background-clip: padding-box;
+    border: 1px solid transparent;
   }
 
   #root {

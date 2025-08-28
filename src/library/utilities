@@ -1,0 +1,7 @@
+import  { clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+// To utilize the tailwind merge so I can pass many classsnames at once
+export const mergeClasses = (...inputs) => {
+    return twMerge(clsx(inputs));
+}

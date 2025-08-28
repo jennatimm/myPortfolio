@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 export const ThemeToggle = () => {
     const currentTheme = localStorage.getItem("theme");
     const [isDarkMode, setIsDarkMode] = useState(currentTheme == "dark");
+
     useEffect (() => {
         document.documentElement.classList.toggle("dark", isDarkMode);
         const theme = (isDarkMode) ? "dark": "light";
@@ -13,10 +14,11 @@ export const ThemeToggle = () => {
     const toggle = () => {
         setIsDarkMode(!isDarkMode);
     }
-return <button onClick={toggle}>
+
+return <button onClick={toggle} className="fixed top-5 right-5">
     {isDarkMode ? <Sun className="h-6 w-6"
     style={{ color: "hsl(var(--toggle))" }}/> 
-:
-     <Moon className="h-6 w-6 text-blue-900"
-     style={{ color: "hsl(var(--toggle))" }}/>}</button>
+    :
+    <Moon className="h-6 w-6"
+    style={{ color: "hsl(var(--toggle))" }}/>}</button>
 }
