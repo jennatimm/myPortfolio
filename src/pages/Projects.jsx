@@ -1,3 +1,3 @@
 export const Projects = () => {
-  return <div style={{ color: "hsl(var(--toggle))" }}> Projects </div>  
+  return <div className="text-(--toggle)">Projects</div>  
 };

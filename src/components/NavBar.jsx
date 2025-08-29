@@ -3,7 +3,7 @@ import { ThemeToggle } from "../components/ThemeToggle";
 
 export const NavBar = () => {
     return (
-        <nav style={{ color: "hsl(var(--toggle))" }}>
+        <nav className="navbar caret-transparent text-(--toggle) bg-(--background) space-y-6">
             <ThemeToggle />
             <NavLink to="/" end> About </NavLink>
             <NavLink to="/Projects" end> Projects </NavLink>

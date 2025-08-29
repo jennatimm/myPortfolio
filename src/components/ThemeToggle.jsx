@@ -15,10 +15,10 @@ export const ThemeToggle = () => {
         setIsDarkMode(!isDarkMode);
     }
 
-return <button onClick={toggle} className="fixed top-5 right-5">
+return <button onClick={toggle} className="fixed right-5">
     {isDarkMode ? <Sun className="h-6 w-6"
-    style={{ color: "hsl(var(--toggle))" }}/> 
+    style={{ color: "(--toggle)" }}/> 
     :
     <Moon className="h-6 w-6"
-    style={{ color: "hsl(var(--toggle))" }}/>}</button>
+    style={{ color: "(--toggle)" }}/>}</button>
 }
