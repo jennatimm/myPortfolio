@@ -1,3 +1,7 @@
 export const Projects = () => {
-  return <div className="text-(--toggle)">Projects</div>  
+  return (
+    <div>
+      Projects
+      </div>  
+  )
 };

@@ -41,6 +41,8 @@
   }
 
   .navbar, .navbar a {
+    position: sticky;
+    top: 2%;
     padding: 0.5rem 0.75rem;
     border-radius: 0.375rem;
     transition: color 0.3s, background-color 0.3s;
@@ -48,14 +50,31 @@
   .navbar a.active {
     background-color: var(--tertiary);
   }
-    .navbar a:hover {
+  .navbar a:hover {
     background-color: var(--toggle); 
     color: var(--background);          
   }
+  .textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background);
+    padding: 25px;
+    margin: 15px;
+    max-width: 768px;
+    font-weight: bold;
+  }
+  .heading {
+    width: 100%;
+    background-color: var(--background);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+  }
+  .page {
 
-  * {
-    @apply border-border;
-  } 
+  }
 
   html {
     @apply scroll-smooth;
@@ -67,11 +86,16 @@
     background-image: var(--background-image);
     }
 }
-  @utility container {
-    margin-inline: auto;
-    padding-in-line: 2rem;
+  @utility card {
+    /* margin-inline: auto;
+    padding-in-line: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     @media (width >= 640px) {
       max-width: 640px;
+      flex-direction: row;
     }
     @media (width >= 768px) {
       max-width: 768px;
@@ -87,18 +111,17 @@
     }
   }
   @utility text-glow {
-    position: relative;
     text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
   }
-  @utility card-hover {
+  @utility project-hover {
     @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
   }
-  @utility gradient-border {
+  /* @utility gradient-border {
     @apply relative rounded-md;
     background: linear-gradient(to right, var(--card), var(--card));
     background-clip: padding-box;
     border: 1px solid transparent;
-  }
+  } */
 
   #root {
     max-width: 100%;

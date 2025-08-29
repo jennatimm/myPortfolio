@@ -15,7 +15,7 @@ export const ThemeToggle = () => {
         setIsDarkMode(!isDarkMode);
     }
 
-return <button onClick={toggle} className="fixed m-0 md:m-1 mx-1">
+return <button onClick={toggle} className="mt-2 mx-0 md: mx-1">
     {isDarkMode ? <Sun className="h-6 w-6"
     style={{ color: "(--toggle)" }}/> 
     :
