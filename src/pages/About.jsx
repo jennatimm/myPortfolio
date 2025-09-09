@@ -17,7 +17,7 @@ export const About = () => {
             <div className="heading text-glow">
                 ~ My Journey ~
             </div>
-            <div className="flex flex-col items-center h-full">
+            <div>
                 <p className="textBox">
                     In the early stages of my academic journey, I explored various subjects to 
                     discover my true interests. I found myself drawn to STEM courses such as calculus 
