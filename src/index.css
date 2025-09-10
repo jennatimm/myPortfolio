@@ -6,19 +6,19 @@
   
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
-  --color-card: var(--card);
+
   
 }
 
 @layer base {
   :root {
     --primary: hsl(12, 20%, 19%); /* rgb(59, 43, 39) */
-    --secondary: hsl(12, 20%, 19%); /* rgb(59, 43, 39) */
+    --secondary: hsl(258, 43%, 12%); /* rgb(59, 43, 39) */
     --foreground: hsl(12, 20%, 19%); /* rgb(59, 43, 39) */
     --background: hsl(330, 15%, 90%); /* rgb(233, 225, 229) */
     --tertiary: hsl(274, 15%, 63%); /* rgb(225, 212, 219)*/
     /* --tertiary: hsl(328, 18%, 86%); rgb(225, 212, 219) */
-    --toggle: hsl(272, 17%, 27%); /* rgb(68, 56, 79) */
+    --toggle: hsl(258, 43%, 12%); /* hsl(272, 17%, 27%); rgb(68, 56, 79) */
     --social: hsl(0, 0%, 0%);
 
     --card: hsl(0 0% 100%);
@@ -28,7 +28,7 @@
   }
   .dark {
     --primary: hsl(272, 4%, 21%); /* rgb(54, 52, 56) */
-    --secondary: hsl(272, 4%, 21%); /* rgb(54, 52, 56) */
+    --secondary: hsl(330, 15%, 90%); /* rgb(54, 52, 56) */
     --foreground: hsl(272, 4%, 21%); /* rgb(54, 52, 56) */
     --background: hsl(272, 17%, 27%); /* rgb(68, 56, 79) */
     --tertiary: hsl(272, 18%, 40%); /* rgb(103, 83, 120)*/
@@ -55,18 +55,9 @@
     background-color: var(--toggle); 
     color: var(--background);          
   }
-  .textBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--background);
-    padding: 25px;
-    margin: 15px;
-    max-width: 768px;
-    font-weight: bold;
-  }
+
   .heading {
-    width: 100%;
+    width: 50%;
     background-color: var(--background);
     font-size: 20px;
     font-weight: bold;
@@ -78,6 +69,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width:1100px;
+    margin: 0 auto;
   }
 
   /* html {
