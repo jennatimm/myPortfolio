@@ -1,9 +1,9 @@
 import { TextBox } from "../components/TextBox";
-export function ProjectCard ({image, title}) {
+export function ProjectCard ({ image, title, route }) {
     return (
-        <div className="max-w-lg p-1 bg-(--secondary)">
-            <img className="mb-1" src={image} />
-            <TextBox text={title}/>
-        </div>
+        <a className="max-w-lg p-1 bg-(--secondary) hover:scale-110" href={route}>
+            <img src={ image } />
+            <TextBox text={ title }/>
+        </a>
     );
 };

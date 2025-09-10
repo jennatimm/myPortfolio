@@ -10,12 +10,12 @@ export const Projects = () => {
     <div className="page">
       <h1 className="heading text-glow">Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 
-      md:grid-cols-3 justify-items-center gap-4 m-2">      
-        <ProjectCard image={rateProject} title="RateMyBooks"/>
-        <ProjectCard image={payrollersProject} title="Payrollers"/>
-        <ProjectCard image={racingProject} title="0xF0"/>
-        <ProjectCard image={trivaProject} title="Triva Maze"/>
-        <ProjectCard image={crapProject} title="Craps Game"/>
+      md:grid-cols-3 justify-items-center gap-5 m-2">      
+        <ProjectCard image={rateProject} title="RateMyBooks" route="Projects/BooksProject"/>
+        <ProjectCard image={payrollersProject} title="Payrollers" route="Projects/Payrollers"/>
+        <ProjectCard image={racingProject} title="0xF0" route="Projects/RacingProject"/>
+        <ProjectCard image={trivaProject} title="Triva Maze" route="Projects/TrivaProject"/>
+        <ProjectCard image={crapProject} title="Craps Game" route="Projects/CrapsProject"/>
       </div>
     </div>
   )

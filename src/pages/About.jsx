@@ -6,7 +6,7 @@ export const About = () => {
         <div class="page">
             {/* Pic and Text */}
             <div className="card">
-                <img className=" p-2 w-35 bg(--toggle)" src={avatar} />  
+                <img className=" px-2 w-35 bg(--toggle)" src={avatar} />  
                 <TextBox text={`Aspiring Software Developer based in Tacoma, WA
                 B.S. in Computer Science – University of Washington, 2024
                 GPA 3.69/4.0"`}/>
@@ -17,8 +17,8 @@ export const About = () => {
                 ~ My Journey ~
             </div>
             
-            <div className="p-2">
-                <TextBox text="In the early stages of my academic journey, I explored various subjects 
+            <div className="mb-4">
+                <TextBox text="In the early stages of my academic journey, I explored various subjects
                 to discover my true interests. I found myself drawn to STEM courses such as calculus 
                 and physics. These subjects were the first to truly connect with me, offering 
                 real-world insights that helped me understand the world around me. I also enjoyed 

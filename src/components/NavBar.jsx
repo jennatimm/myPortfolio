@@ -3,7 +3,8 @@ import { ThemeToggle } from "../components/ThemeToggle";
 
 export const NavBar = () => {
     return (
-        <nav className="navbar text-glow caret-transparent text-sm md:text-xl text-(--toggle) bg-(--background)">
+        <nav className="navbar text-glow caret-transparent text-sm md:text-xl 
+        text-(--toggle) bg-(--background) z-10">
             <div className="flex justify-center my-0 md:my-1">
             <NavLink to="/" end> About </NavLink>
             <NavLink to="/Projects" end> Projects </NavLink>
