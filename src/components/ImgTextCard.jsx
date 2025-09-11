@@ -1,12 +1,17 @@
-import { TextBox } from "./TextBox";
 import { Header } from "./Header";
-export function ImgTextCard( {title, text, text2, text3, image, imgFirst} ) {
+import { TextBox } from "./TextBox";
+
+export function ImgTextCard( {title, text, text2, text3, image, imgFirst, size} ) {
     return (<div className="flex flex-col justify-center items-center md:flex-row gap-4 p-4">
-        { imgFirst && <img className="rounded-lg object-contain max-h-96 border-2" src={ image } /> }
-        <div className="flex flex-col justify-center items-center">
-            <Header text={ title }/>
+
+        { imgFirst && <img className="rounded-lg object-contain md:w-1/2 border-2" src={ image } /> }
+
+        <div className={`flex flex-col justify-center items-center`}>
+            <Header text={ title} size="70%"/>
             <TextBox text={ text } text2={ text2 } text3={ text3 }/> 
         </div>
-        { !imgFirst && <img className="rounded-lg object-contain max-w-96 border-2" src={ image } />}
+
+        { !imgFirst && <img className="rounded-lg object-contain md:w-1/2 border-2" src={ image } />}
+
     </div>);
 };

@@ -12,7 +12,7 @@ export const About = () => {
                 text3="GPA 3.69/4.0"/>
             </div>
 
-            <Header text="~ My Journey ~"/>            
+            <Header text="~ My Journey ~" size="50%"/>            
             <div className="mb-4">
                 <TextBox text="In the early stages of my academic journey, I explored various subjects
                 to discover my true interests. I found myself drawn to STEM courses such as calculus 

@@ -1,14 +1,17 @@
-import { ImgTextCard } from "../../components/ImgTextCard"
 import { Banner } from "../../components/Banner";
-import { TextBox } from "../../components/TextBox";
 import { Header } from "../../components/Header";
-import image1 from '../../media/craps/colorchange.gif';
-import image2 from '../../media/craps/gameplayonly.gif';
-import image3 from '../../media/craps/profile.png';
+import { ImgTextCard } from "../../components/ImgTextCard"
+import { TextBox } from "../../components/TextBox";
+import exOne from '../../media/craps/colorchange.gif';
+import exTwo from '../../media/craps/gameplayonly.gif';
+import profile from '../../media/craps/profile.png';
+
 export const CrapsGame = () => {
     return (<div className="page">
-        <Banner text="CRAPS GAME" image={image3}/>
+
+        <Banner text="CRAPS GAME" image={profile}/>
         <div className="page relative top-20 z-5">
+            
             <ImgTextCard title="Overview" 
             text="We were given complete creative freedom with the project, aside from 
             the core gameplay requirements. Our instructor encouraged us to keep things 
@@ -20,7 +23,7 @@ export const CrapsGame = () => {
             expected to implement fully on my own. The task was to build a functional 
             version of the casino game Craps using Java Swing. It was also my first exposure 
             to creating a graphical user interface (GUI), and I was genuinely excited to dive in."
-            image={image1} imgFirst={true}/>
+            image={exOne} imgFirst={true}/>
 
             <Header text="Creative Direction & Structure:"/>
             <TextBox 
@@ -46,7 +49,7 @@ export const CrapsGame = () => {
             and build a more robust, thoughtful application. When my next project involved a GUI, I 
             immediately volunteered. I even took the initiative to self teach myself JavaFX so I could 
             continue growing in this space." 
-            image={image2} imgFirst={false}/>   
+            image={exTwo} imgFirst={false}/>   
         </div>
 
     </div>);
