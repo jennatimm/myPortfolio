@@ -1,3 +1,6 @@
+import { Header } from "../components/Header";
 export const Simulations = () => {
-    return <div className="heading text-glow">Simulations</div>
+    return (
+        <Header text="Simulations"/>
+    ); 
 };
