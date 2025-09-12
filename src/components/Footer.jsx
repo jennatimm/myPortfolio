@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
-        <footer className="flex space-x-4 p-2 items-center justify-center text-glow bg-(--background)">
-            <p className="text-s md:text-xl text-(--toggle)" >
+        <footer className="flex space-x-4 p-2 items-center justify-center text-glow bg-(--primary) border-2 border-(--secondary)">
+            <p className="text-s md:text-xl text-(--foreground)" >
                  Jenna Timm ~ B.S. in Computer Science – University of Washington, 2024
             </p>
             {/* Github logo must be white or black per Github Logo and Octocat terms of use*/}

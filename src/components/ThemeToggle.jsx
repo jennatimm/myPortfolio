@@ -16,9 +16,6 @@ export const ThemeToggle = () => {
     }
 
 return <button onClick={toggle} className="mt-2 mx-0 md: mx-1">
-    {isDarkMode ? <Sun className="h-6 w-6"
-    style={{ color: "(--toggle)" }}/> 
-    :
-    <Moon className="h-6 w-6"
-    style={{ color: "(--toggle)" }}/>}</button>
+    {isDarkMode ? <Sun className="h-6 w-6 text-(--foreground) drop-shadow-[0_0_6px_var(--primary)]"/> 
+    : <Moon className="h-6 w-6 text-(--foreground) drop-shadow-[0_0_6px_var(--primary)]"/>}</button>
 }

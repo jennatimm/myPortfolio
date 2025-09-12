@@ -19,7 +19,7 @@ export const RacingGame = () => {
             of a bounce mechanic that handled collisions through detection and redirection, ensuring 
             smooth, responsive vehicle movement along the track. Our game, 0xF0, ranked 2nd out of 16 
             other games. It was praised for its engaging and smooth game play." 
-            image={exOne} imgFirst={false} size="40%"/>
+            image={exOne} imgFirst={false}/>
 
             <Header text="Overcoming Setbacks and Collaborating for Solutions"/>
             <TextBox 
@@ -35,7 +35,7 @@ export const RacingGame = () => {
             to use theta for displaying the enemy. After sharing insights from my section of the code and 
             what I learned while implementing it, we were able to realign our efforts and move forward 
             more efficiently." 
-            image={exTwo} imgFirst={true} size="45%"/>   
+            image={exTwo} imgFirst={true}/>   
             
             <Header text="Lessons Learned from Task Allocation and Collaboration"/>
             <TextBox 

@@ -9,7 +9,7 @@ import payrollersProject from '../media/payrollers/profile.png'
 export const Projects = () => {
   return (
     <div className="page">
-      <Header text="Projects" size="50%"/>
+      <Header text="Projects"/>
       <div className="grid grid-cols-1 sm:grid-cols-2 
       md:grid-cols-3 justify-items-center gap-6 m-2">      
         <ProjectCard image={rateProject} title="RateMyBooks" route="Projects/BooksProject"/>

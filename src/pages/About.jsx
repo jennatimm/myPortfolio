@@ -6,13 +6,13 @@ export const About = () => {
         <div className="page">
             {/* Pic and Text */}
             <div className="card">
-                <img className="px-2 w-35 bg(--toggle)" src={avatar} />  
+                <img className="px-2 w-35 bg(--foreground)" src={avatar} />  
                 <TextBox text="Aspiring Software Developer based in Tacoma, WA"
                 text2="B.S. in Computer Science – University of Washington, 2024"
                 text3="GPA 3.69/4.0"/>
             </div>
 
-            <Header text="~ My Journey ~" size="50%"/>            
+            <Header text="~ My Journey ~"/>            
             <div className="mb-4">
                 <TextBox text="In the early stages of my academic journey, I explored various subjects
                 to discover my true interests. I found myself drawn to STEM courses such as calculus 

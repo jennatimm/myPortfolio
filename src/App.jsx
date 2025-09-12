@@ -17,7 +17,7 @@ function Layout() {
     return (
       <>
         <NavBar />
-        <main className="caret-transparent pt-6 min-h-screen overflow-x-hidden text-(--toggle)">
+        <main className="caret-transparent pt-6 min-h-screen overflow-x-hidden text-(--foreground)">
           <Outlet/>
         </main>
         <Footer/>

@@ -6,8 +6,8 @@ export const NavBar = () => {
     const location = useLocation();
     const isProjectPage = location.pathname.startsWith("/Projects/");
     return (
-        <nav   className={`navbar text-glow caret-transparent text-sm md:text-xl 
-        text-(--toggle) z-10 ${isProjectPage ? "bg-transparent" : "bg-background"}`}>
+        <nav   className={`navbar text-glow caret-transparent text-sm md:text-xl
+        text-(--foreground) z-10 ${isProjectPage ? "bg-transparent" : "bg-primary"}`}>
             <div className={`flex my-0 md:my-1 ${isProjectPage ? "justify-end" : "justify-center" }`}>
             <NavLink to="/" end> About </NavLink>
             <NavLink to="/Projects" end> Projects </NavLink>
