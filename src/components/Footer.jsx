@@ -20,7 +20,7 @@ export const Footer = () => {
             </a>
             {/* linkedin logo must be white, black, or blue per Linkedin Brand and User Agreements */}
             <a href="https://www.linkedin.com/in/jenna-timm-470944259/">
-                <svg className="w-8 h-8 text-[var(--social)]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                <svg className="w-8 h-8 text-[var(--social)]" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 382 382" fill="currentColor">
                     <path fillRule="evenodd" clipRule="evenodd" 
                     d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889

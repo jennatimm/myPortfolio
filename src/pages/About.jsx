@@ -3,7 +3,7 @@ import { Header } from "../components/Header.jsx";
 import avatar from '../media/bitmoji.png'
 export const About = () => {
     return (
-        <div class="page">
+        <div className="page">
             {/* Pic and Text */}
             <div className="card">
                 <img className="px-2 w-35 bg(--toggle)" src={avatar} />  

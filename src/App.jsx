@@ -7,7 +7,7 @@ import { CrapsGame } from './pages/projects/crapsGame';
 import { Payrollers } from './pages/projects/payrollers';
 import { RacingGame } from './pages/projects/racing';
 import { RateMyBooks } from './pages/projects/rateMyBooks';
-import { TrivaMaze } from './pages/projects/trivaMaze';
+import { TriviaMaze } from './pages/projects/triviaMaze';
 
 import { NotFound } from "./pages/NotFound";
 import { NavBar } from "./components/NavBar";
@@ -38,7 +38,7 @@ function App() {
             <Route path="Projects/Payrollers" element={<Payrollers/>}/>
             <Route path="Projects/RacingProject" element={<RacingGame/>}/>
             <Route path="Projects/BooksProject" element={<RateMyBooks/>}/>
-            <Route path="Projects/TrivaProject" element={<TrivaMaze/>}/>
+            <Route path="Projects/TriviaProject" element={<TriviaMaze/>}/>
             <Route path = "*" element={<NotFound/>}/>
           </Route>
         </Routes>
