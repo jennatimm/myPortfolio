@@ -10,7 +10,7 @@ export const RacingGame = () => {
     return (<div className="page">
 
         <Banner text="0xF0" image={profile}/>
-        <div className="page relative top-20 z-5">
+        <div className="page pt-20 z-5">
             
             <ImgTextCard title="Overview" 
             text="For this project, I worked as part of a four-person team to develop a web-based 

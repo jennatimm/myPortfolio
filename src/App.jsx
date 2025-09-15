@@ -9,19 +9,22 @@ import { RacingGame } from './pages/projects/racing';
 import { RateMyBooks } from './pages/projects/rateMyBooks';
 import { TriviaMaze } from './pages/projects/triviaMaze';
 
+import { EvolvingColor } from './pages/simulations/evolvingColors';
+import { GameOfLife } from './pages/simulations/gameOfLife';
+
 import { NotFound } from "./pages/NotFound";
 import { NavBar } from "./components/NavBar";
 import { Footer } from './components/Footer';
 
 function Layout() {
     return (
-      <>
+      <div className="caret-transparent flex flex-col min-h-screen">
         <NavBar />
-        <main className="caret-transparent pt-6 min-h-screen overflow-x-hidden text-(--foreground)">
+        <main className="flex-grow pt-6 overflow-x-hidden text-(--foreground)">
           <Outlet/>
         </main>
         <Footer/>
-      </>
+      </div>
     )
 }
 
@@ -39,6 +42,8 @@ function App() {
             <Route path="Projects/RacingProject" element={<RacingGame/>}/>
             <Route path="Projects/BooksProject" element={<RateMyBooks/>}/>
             <Route path="Projects/TriviaProject" element={<TriviaMaze/>}/>
+            <Route path="Simulations/EvolvingColor" element={<EvolvingColor/>}/>
+            <Route path="Simulations/GameOfLife" element={<GameOfLife/>}/>
             <Route path = "*" element={<NotFound/>}/>
           </Route>
         </Routes>

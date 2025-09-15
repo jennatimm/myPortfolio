@@ -10,7 +10,7 @@ export const CrapsGame = () => {
     return (<div className="page">
 
         <Banner text="CRAPS GAME" image={profile}/>
-        <div className="page relative top-20 z-5">
+        <div className="page pt-20 z-5">
             
             <ImgTextCard title="Overview" 
             text="We were given complete creative freedom with the project, aside from 

@@ -10,7 +10,7 @@ export const Payrollers = () => {
     return (<div className="page">
 
         <Banner text="PAYROLLERS" image={profile}/>
-        <div className="page relative top-20 z-5">
+        <div className="page pt-20 z-5">
             
             <ImgTextCard title="Overview" 
             text="For our Database Systems Design project, my team and I built a full-stack 

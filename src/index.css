@@ -48,20 +48,20 @@
     max-width:1266px;
     margin: 0 auto;
   }
-
   /* html {
     @apply scroll-smooth;
   } */
 
   body {
-    @apply bg-background transition-colors duration-300;
+    @apply bg-background;
+
     font-feature-settings: "rlig" 1, "calt" 1;
     background-image: var(--background-image);
     }
 }
-  @utility card {
-    /* margin-inline: auto;
-    padding-in-line: 2rem; */
+ @utility card {
+    margin-inline: auto;
+    padding-in-line: 2rem; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@
     @media (width >= 1400px) {
       max-width: 1400px;
     }
-  }
+  } 
   @utility text-glow {
     text-shadow: 0 0 30px var(--secondary), 0 0 30px var(--secondary), 0 0 10px var(--secondary);
   }

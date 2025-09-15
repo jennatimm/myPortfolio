@@ -1,28 +1,14 @@
 import { Banner } from "../../components/Banner";
 import { Header } from "../../components/Header";
-import { ImgTextCard } from "../../components/ImgTextCard";
+import { ImgTextCard } from "../../components/ImgTextCard"
 import { TextBox } from "../../components/TextBox";
-import exOne from '../../media/triviamaze/startingLosingPlay.gif';
-import exTwo from '../../media/triviamaze/winningPlay.gif';
-import profile from '../../media/triviamaze/profile.png';
-
- export const TriviaMaze = () => {
+export const GameOfLife = () => {
     return (<div className="page">
 
-        <Banner text="TRIVIA MAZE" image={profile}/>
+        {/* <Banner text="CRAPS GAME" image={profile}/>
         <div className="page pt-20 z-5">
             
             <ImgTextCard title="Overview" 
-            text="We were given complete creative freedom with the project, aside from 
-            the core gameplay requirements. Our instructor encouraged us to keep things 
-            simple, as this was our first GUI project, and we had about three weeks to 
-            complete it." 
-            text2="This was my first independent project in school where I wasn’t given 
-            any starter code, only a structural guideline to follow. The assignment 
-            introduced the Model-View-Controller (MVC) architecture pattern, which I was 
-            expected to implement fully on my own. The task was to build a functional 
-            version of the casino game Craps using Java Swing. It was also my first exposure 
-            to creating a graphical user interface (GUI), and I was genuinely excited to dive in."
             image={exOne} imgFirst={true}/>
 
             <Header text="Creative Direction & Structure:"/>
@@ -50,7 +36,7 @@ import profile from '../../media/triviamaze/profile.png';
             immediately volunteered. I even took the initiative to self teach myself JavaFX so I could 
             continue growing in this space." 
             image={exTwo} imgFirst={false}/>   
-        </div>
+        </div> */}
 
     </div>);
- };
+};
