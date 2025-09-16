@@ -1,10 +1,9 @@
-export function TextBox({ text, text2, text3}) {
+export function TextBox({ text}) {
     return (
         <div className="bg-(--primary) p-6 mt-1 max-w-3xl font-semibold rounded-lg
         border-2 text-basic md:text-lg">
-            <p>{ text }</p>
-            {text2 && <p className="pt-3">{ text2 }</p>}
-            {text3 && <p className="pt-3">{ text3 }</p>}
+            {Array.isArray(text) ? text.map((t, index) =>
+                (<p key={index}>{t}</p>)) : <p>{ text }</p>}
         </div>
     );
 };

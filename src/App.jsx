@@ -42,7 +42,7 @@ function App() {
             <Route path="Projects/RacingProject" element={<RacingGame/>}/>
             <Route path="Projects/BooksProject" element={<RateMyBooks/>}/>
             <Route path="Projects/TriviaProject" element={<TriviaMaze/>}/>
-            <Route path="Simulations/EvolvingColor" element={<EvolvingColor/>}/>
+            <Route path="Simulations/EvolvingColors" element={<EvolvingColor/>}/>
             <Route path="Simulations/GameOfLife" element={<GameOfLife/>}/>
             <Route path = "*" element={<NotFound/>}/>
           </Route>
