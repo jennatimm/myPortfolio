@@ -37,12 +37,12 @@ function App() {
             <Route index element={<About/>}/>
             <Route path="Projects" element={<Projects/>}/>
             <Route path="Simulations" element={<Simulations/>}/>
-            <Route path="Projects/CrapsProject" element={<CrapsGame/>}/>
+            <Route path="CrapsProject" element={<CrapsGame/>}/>
             <Route path="Projects/Payrollers" element={<Payrollers/>}/>
             <Route path="Projects/RacingProject" element={<RacingGame/>}/>
             <Route path="Projects/BooksProject" element={<RateMyBooks/>}/>
             <Route path="Projects/TriviaProject" element={<TriviaMaze/>}/>
-            <Route path="Simulations/EvolvingColors" element={<EvolvingColor/>}/>
+            <Route path="Simulations/EvolvingColor" element={<EvolvingColor/>}/>
             <Route path="Simulations/GameOfLife" element={<GameOfLife/>}/>
             <Route path = "*" element={<NotFound/>}/>
           </Route>
