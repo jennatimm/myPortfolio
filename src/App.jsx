@@ -37,7 +37,7 @@ function App() {
             <Route index element={<About/>}/>
             <Route path="Projects" element={<Projects/>}/>
             <Route path="Simulations" element={<Simulations/>}/>
-            <Route path="CrapsProject" element={<CrapsGame/>}/>
+            <Route path="Projects/CrapsProject" element={<CrapsGame/>}/>
             <Route path="Projects/Payrollers" element={<Payrollers/>}/>
             <Route path="Projects/RacingProject" element={<RacingGame/>}/>
             <Route path="Projects/BooksProject" element={<RateMyBooks/>}/>
