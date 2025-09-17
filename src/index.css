@@ -47,6 +47,7 @@
     align-items: center;
     max-width:1266px;
     margin: 0 auto;
+    padding: 15px;
   }
   /* html {
     @apply scroll-smooth;

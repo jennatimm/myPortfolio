@@ -13,43 +13,45 @@ import profile from '../../media/triviamaze/profile.png';
         <div className="page pt-40 md:pt-20">
             
             <Block title="Overview" 
-            text={[`We were given complete creative freedom with the project, aside from
-            the core gameplay requirements. Our instructor encouraged us to keep things
-            simple, as this was our first GUI project, and we had about three weeks to
-            complete it.`, 
-            `This was my first independent project in school where I wasn’t given
-            any starter code, only a structural guideline to follow. The assignment
-            introduced the Model-View-Controller (MVC) architecture pattern, which I was
-            expected to implement fully on my own. The task was to build a functional
-            version of the casino game Craps using Java Swing. It was also my first exposure
-            to creating a graphical user interface (GUI), and I was genuinely excited to dive in.`]}
+            text={[`This project involved developing a Trivia Maze with a team of three, using
+                the MVC design pattern and Git/GitHub for version control. We utilized UML diagrams
+                for design and managed the project with SCRUM methodology. The project included the
+                use of SQLite to store trivia questions. I focused primarily on the frontend, where
+                I used JavaFX to create a detailed and user-friendly GUI. In addition to my frontend
+                responsibilities, I supported my teammates by helping with the controller logic and
+                backend functionality. I also utilized Jackson for game state serialization and took
+                the initiative to contribute to other areas as needed to ensure the project’s success.
+                Ultimately, we delivered a fully functional and engaging game with a robust interface
+                and well-documented, clean code within a four-week timeframe.`]}
             image={exOne} imgFirst={true}/>
 
-            <Header text="Creative Direction & Structure:"/>
+            <Header text="Adopting JavaFX for Skill Expansion and Personal Growth"/>
             <TextBox 
-            text={[`With no starter code provided, I embraced the opportunity to explore my own
-            creative direction. While others might have been driven by the predefined extra credit
-            opportunities, I chose to focus on design features that interested me personally and
-            challenged my understanding of the application structure. Which I found pushed me to
-            think more deeply about how to organize and structure the program. I implemented the full
-            MVC pattern myself, creating separate classes for the model, view, controller, utility
-            functions, and testing. In total, the project included six classes: one for each component
-            plus two utility helpers.`,
-            `One of the more difficult aspects was fully separating the view and controller, as
-            most of our previous assignments had combined the two. Later, our instructor explained that
-            in smaller projects, the controller often just initializes the GUI, validating the simpler
-            structure I had adopted.`]}/>
+            text={[`For this project, I had the option of using Java Swing, which I had prior experience
+                with, or challenging myself to learn JavaFX. Eager to expand my skills, I chose to self-
+                teach JavaFX, despite having no previous experience with the framework. This decision
+                pushed me to dive deeper into the documentation and online resources, allowing me to not
+                only complete the project successfully but also gain valuable knowledge in a new technology.
+                The challenge of learning JavaFX was rewarding and enhanced my confidence in tackling
+                unfamiliar tools.`]}/>
 
-            <Block title="Discovering a Passion for Frontend Development:" 
-            text="Before this assignment, frontend development wasn’t something I gravitated toward since
-            I saw it as mostly visual. It was not something I thought would be challenging or rewarding.
-            But once I started this project, I realized how much thought goes into designing something
-            intuitive and user-friendly. It was a challenge to guess all the different ways someone might
-            experience or interact with my game. It pushed me to think critically about design decisions
-            and build a more robust, thoughtful application. When my next project involved a GUI, I
-            immediately volunteered. I even took the initiative to self teach myself JavaFX so I could
-            continue growing in this space." 
+            <Block title="Team Collaboration and Challenges" 
+            text={[`This was our first group project in the program after working independently for some
+                time. Reflecting back, it is evident that our communication and focus on collaboration
+                should have been stronger. My teammates and I were new to GitHub and SCRUM sprints, so we
+                initially struggled with implementing these processes effectively. As a result, I didn’t
+                realize how far behind my teammates were until a week before the project was due. Thankfully,
+                I had planned to finish early, so I was able to offer support to my teammates and help us catch
+                up, ensuring we met our deadline.`]} 
             image={exTwo} imgFirst={false}/>   
+
+            <Header text="Key Takeaways"/>
+            <TextBox 
+            text={[`This project taught me the importance of setting clear goals and holding regular check-ins to
+                ensure that everyone is on track. The lack of structure and timely feedback created unnecessary
+                stress, but I used the experience to improve my future project management skills. In subsequent
+                projects, like the game design project (0xF0), I proactively reached out to teammates who were
+                falling behind, which helped ensure smoother collaboration and more efficient progress.`]}/>
         </div>
 
     </div>);
