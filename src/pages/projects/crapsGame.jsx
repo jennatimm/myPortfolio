@@ -7,7 +7,7 @@ import exTwo from '../../media/craps/gameplayonly.gif';
 import profile from '../../media/craps/profile.png';
 
 export const CrapsGame = () => {
-    return (<div className="page">
+    return (<div>
 
         <Banner text="CRAPS GAME" image={profile}/>
         <div className="page pt-40 md:pt-20">

@@ -7,7 +7,7 @@ import exTwo from '../../media/racing/losingRace.gif';
 import profile from '../../media/racing/profile.png';
 
 export const RacingGame = () => {
-    return (<div className="page">
+    return (<div>
 
         <Banner text="0xF0" image={profile}/>
         <div className="page pt-40 md:pt-20">

@@ -7,7 +7,7 @@ import exTwo from '../../media/triviamaze/winningPlay.gif';
 import profile from '../../media/triviamaze/profile.png';
 
  export const TriviaMaze = () => {
-    return (<div className="page">
+    return (<div>
 
         <Banner text="TRIVIA MAZE" image={profile}/>
         <div className="page pt-40 md:pt-20">

@@ -8,7 +8,7 @@ import exThree from '../../media/ratemybooks/addingReview.gif';
 import profile from '../../media/ratemybooks/profile.png';
 
 export const RateMyBooks = () => {
-    return (<div className="page">
+    return (<div>
 
         <Banner text="RATE MY BOOKS" image={profile}/>
         <div className="page pt-40 md:pt-20">
@@ -17,7 +17,7 @@ export const RateMyBooks = () => {
             text={[`As part of a senior-level web development course, my team built a full-stack
             book review application. The project was completed in two phases: first, developing
             a RESTful API using Node.js, Express, and PostgreSQL; and second, building a
-            React-based frontend with Next.js that consumed the API.`, 
+            React-based frontend with Next.js that consumed the API.`,
             `The goal was to simulate real-world development conditions. Frontend and
             backend teams were separated and expected to collaborate across team lines, creating
             realistic challenges related to API contracts, documentation clarity, and communication.
@@ -31,7 +31,7 @@ export const RateMyBooks = () => {
             that bundled multiple unfamiliar technologies. Unlike past projects that introduced one tool
             at a time, this project included a main app, two demos, and an authentication section we had
             not covered in class. The overlap between components made it hard to trace logic, distinguish
-            what’s essential, or spot what I’d missed`,
+            what’s essential, or spot what I’d missed.`,
             `To contribute meaningfully, I focused on fully understanding my section rather than the
             entire system. After the course, I revisited the project, studying each technology independently
             before cleaning up unused parts and reviewing the structure. This experience taught me how to work
@@ -61,9 +61,9 @@ export const RateMyBooks = () => {
 
             <Header text="Key Takeaways"/>
             <TextBox 
-            text={[`This project planted the seeds for my full-stack development journey. It introduced me to tools like
-            Node.js, Express, PostgreSQL, React, and Next.js, and helped me begin connecting the dots between frontend
-            and backend systems. While I was far from mastering all the technologies, the experience gave me a strong
+            text={[`This project planted the seeds for my full-stack development journey. It introduced me to tools (i.e.
+            Node.js, Express, PostgreSQL, React, and Next.js) that helped me connect the dots between frontend
+            and backend systems. While I am far from mastering all the technologies, the experience gave me a strong
             sense of direction. It showed me what technologies exist, how they’re used together, and which areas I needed
             to explore more deeply.`,
             `Equally important, I learned to adapt my learning style. I developed the ability to navigate ambiguous

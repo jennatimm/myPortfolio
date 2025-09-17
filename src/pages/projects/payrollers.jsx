@@ -7,7 +7,7 @@ import exTwo from '../../media/payrollers/ERDiagram.png';
 import profile from '../../media/payrollers/profile.png';
 
 export const Payrollers = () => {
-    return (<div className="page">
+    return (<div>
 
         <Banner text="PAYROLLERS" image={profile}/>
         <div className="page pt-40 md:pt-20">
@@ -16,8 +16,8 @@ export const Payrollers = () => {
             text="For our Database Systems Design project, my team and I built a full-stack
             web application that involved designing and developing a dynamic website using PHP
             with a SQL relational database for efficient data management. We handled everything
-            from the initial design to the final deployment. Originally, It was launched it on
-            Google Cloud Platform, but after the trial ended, I migrated it to InfinityFree.
+            from the initial design to the final deployment. Originally, It was originaly launched
+            on Google Cloud Platform, but after the trial ended, I migrated it to InfinityFree.
             This project gave me hands on experience with full-stack development, database
             design, cloud deployment, and effective team collaboration."
             image={exOne} imgFirst={true} caption="Disclaimer: This is a simulated website
