@@ -19,7 +19,8 @@ export const RacingGame = () => {
             of a bounce mechanic that handled collisions through detection and redirection, ensuring
             smooth, responsive vehicle movement along the track. Our game, 0xF0, ranked 2nd out of 16
             other games. It was praised for its engaging and smooth game play." 
-            image={exOne} imgFirst={false}/>
+            image={exOne} imgFirst={false}
+            alt="Main menu cycling through credits, track/car selections, gameplay controls, plus settings like lap count and car invincibility"/>
 
             <Header text="Overcoming Setbacks and Collaborating for Solutions"/>
             <TextBox 
@@ -35,7 +36,8 @@ export const RacingGame = () => {
             to use theta for displaying the enemy. After sharing insights from my section of the code and
             what I learned while implementing it, we were able to realign our efforts and move forward
             more efficiently." 
-            image={exTwo} imgFirst={true}/>   
+            image={exTwo} imgFirst={true}
+            alt="Gameplay of a player's car bouncing off the wall repeatedly until it loses enough health to explode, ending the game"/>   
             
             <Header text="Lessons Learned from Task Allocation and Collaboration"/>
             <TextBox 
@@ -47,10 +49,10 @@ export const RacingGame = () => {
             sooner, we could have progressed faster and gained a shared understanding of how the car interacts
             with the map. This would have enabled us to focus more time on the enemy car and ultimately
             improve the project outcome."/>
-        </div>
 
-        <a href="https://chadob.github.io/0xF0/">
-            <Header text="Click Here to Play"/> 
-        </a>
+            <a href="https://chadob.github.io/0xF0/">
+                <Header text="Play Here (Best experienced in Chrome)"/> 
+            </a>
+        </div>
     </div>);
 };

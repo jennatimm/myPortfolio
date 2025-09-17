@@ -6,7 +6,8 @@ export const About = () => {
         <div className="page">
             {/* Pic and Text */}
             <div className="card">
-                <img className="px-2 w-35 bg(--foreground)" src={avatar} />  
+                <img className="px-2 w-35 bg(--foreground)" src={avatar} 
+                alt="An avatar resembling Jenna Timm, smiling and waving to convey a welcoming presence."/>  
                 <TextBox text={[`Aspiring Software Developer based in Tacoma, WA`,
                 `B.S. in Computer Science – University of Washington, 2024`,
                 `GPA 3.69/4.0`]}/>

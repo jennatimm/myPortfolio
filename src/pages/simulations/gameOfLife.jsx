@@ -11,7 +11,9 @@ export const GameOfLife = () => {
     <div className="page pt-40 md:pt-20">
         <Banner text="GAME Of LIFE" image={profile}/>
         <Block image={ exOne } caption="Life Begins Randomly"
-         image2={ exTwo } caption2="Life Begins with Patterns"/>
+        alt="Simulation starts life randomly and shows the evolotion as the cells live, die, or multiply over time."
+         image2={ exTwo } caption2="Life Begins with Patterns"
+         alt2="Simulation starts with life as a pattern, demonstrating how varying starting conditions produce different long-term results."/>
 
         <a href="https://jennatimm.github.io/GameOfLife/">
             <Header text="Click Here for simulation"/> 

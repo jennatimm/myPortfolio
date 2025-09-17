@@ -23,7 +23,8 @@ export const RateMyBooks = () => {
             realistic challenges related to API contracts, documentation clarity, and communication.
             The final application allowed users to view a list of books to search, add and delete as
             well as access detailed book information such as ratings.`]}
-            image={exOne} imgFirst={false}/>
+            image={exOne} imgFirst={false}
+            alt="Displays the web pages for adding, deleting and displaying a book."/>
 
             <Header text="Challenges and Solutions"/>
             <TextBox 
@@ -48,7 +49,8 @@ export const RateMyBooks = () => {
             attached demonstrates the endpoints functioning correctly in Postman. I also contributed to our API
             documentation using apidoc.js, helping make our backend more accessible and understandable for the
             frontend team we collaborated with." 
-            image={exTwo} imgFirst={true}/>   
+            image={exTwo} imgFirst={true}
+            alt="Demonstrates the endpoints 'newRating' and 'newRating/admin' functioning correctly in Postman"/>   
 
             <Block title="~ Frontend Development ~" 
             text="On the frontend side, I focused on the book details page, specifically building the section
@@ -57,7 +59,8 @@ export const RateMyBooks = () => {
             I worked to ensure that users could interact smoothly with the rating system while also reinforcing the
             consistency of the overall user experience. This required frequent collaboration with both teammates and
             our partner backend team to resolve mismatches and improve functionality across the stack." 
-            image={exThree} imgFirst={false}/>  
+            image={exThree} imgFirst={false}
+            alt="User searches for a book by title, submits a 4-star, then searches by publication year and submits a 3-star review."/>  
 
             <Header text="Key Takeaways"/>
             <TextBox 

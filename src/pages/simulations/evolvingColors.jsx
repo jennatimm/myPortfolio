@@ -9,7 +9,9 @@ export const EvolvingColor = () => {
     return <div className="page pt-40 md:pt-20">
         <Banner text="EVOLVING COLORS" image={profile}/>
         <Block image={ exOne } caption="Animats Join the World"
-        image2={ exTwo } caption2="Plants Take Over"/>
+        alt="Shows the placement of several plants and their gradual growth over time, eventually filling the screen with vibrant colors."
+        image2={ exTwo } caption2="Plants Take Over"
+        alt2="Screen filled with plants, animates get introduced and eat plants of similar colors. Remaining plants grow, changing the colors on the screen."/>
 
         <a href="https://jennatimm.github.io/EvolvingColors/">
             <Header text="Click Here for simulation"/> 

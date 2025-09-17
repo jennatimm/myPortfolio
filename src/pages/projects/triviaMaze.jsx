@@ -23,7 +23,8 @@ import profile from '../../media/triviamaze/profile.png';
                 the initiative to contribute to other areas as needed to ensure the project’s success.
                 Ultimately, we delivered a fully functional and engaging game with a robust interface
                 and well-documented, clean code within a four-week timeframe.`]}
-            image={exOne} imgFirst={true}/>
+            image={exOne} imgFirst={true}
+            alt="Main menu quiz themes shown, followed by a gameplay where a player gets questions wrong until the game is lost."/>
 
             <Header text="Adopting JavaFX for Skill Expansion and Personal Growth"/>
             <TextBox 
@@ -43,7 +44,8 @@ import profile from '../../media/triviamaze/profile.png';
                 realize how far behind my teammates were until a week before the project was due. Thankfully,
                 I had planned to finish early, so I was able to offer support to my teammates and help us catch
                 up, ensuring we met our deadline.`]} 
-            image={exTwo} imgFirst={false}/>   
+            image={exTwo} imgFirst={false}
+            alt="Shows the end of a winning game, where the player successfully answers questions and reaches the correct exit."/>   
 
             <Header text="Key Takeaways"/>
             <TextBox 

@@ -23,7 +23,8 @@ export const CrapsGame = () => {
             expected to implement fully on my own. The task was to build a functional
             version of the casino game Craps using Java Swing. It was also my first exposure
             to creating a graphical user interface (GUI), and I was genuinely excited to dive in.`]}
-            image={exOne} imgFirst={true}/>
+            image={exOne} imgFirst={true}
+            alt="Main menu displayed in various, options in navigation displayed (i.g. how to play, keyboard shortcuts, game reset)"/>
 
             <Header text="Creative Direction & Structure:"/>
             <TextBox 
@@ -49,8 +50,8 @@ export const CrapsGame = () => {
             and build a more robust, thoughtful application. When my next project involved a GUI, I
             immediately volunteered. I even took the initiative to self teach myself JavaFX so I could
             continue growing in this space." 
-            image={exTwo} imgFirst={false}/>   
+            image={exTwo} imgFirst={false}
+            alt="Gameplay of a player placing a bet and rolling dice, followed by resetting the game to return to the main menu."/>   
         </div>
-
     </div>);
 };

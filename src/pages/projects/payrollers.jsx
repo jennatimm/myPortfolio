@@ -21,7 +21,8 @@ export const Payrollers = () => {
             This project gave me hands on experience with full-stack development, database
             design, cloud deployment, and effective team collaboration."
             image={exOne} imgFirst={true} caption="Disclaimer: This is a simulated website
-            created for a class project and does not represent a real business."/>
+            created for a class project and does not represent a real business."
+            alt="Home page displayed, followed by a cycling display of pages with database-driven information (i.g. full-time employees, wages)"/>
 
             <Header text="Challenges and Solutions"/>
             <TextBox 
@@ -59,8 +60,8 @@ export const Payrollers = () => {
             />
         </div>
 
-        {/* <a href="http://payroller.infinityfreeapp.com/">
+        <a href="http://payroller.infinityfreeapp.com/">
             <Header text="Click Here for Project"/> 
-        </a> */}
+        </a>
     </div>);
 };

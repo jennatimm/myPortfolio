@@ -5,7 +5,7 @@ export const Footer = () => {
                  Jenna Timm ~ B.S. in Computer Science – University of Washington, 2024
             </p>
             {/* Github logo must be white or black per Github Logo and Octocat terms of use*/}
-            <a href="https://github.com/jennatimm">
+            <a href="https://github.com/jennatimm" aria-label="Github Logo">
                 <svg className="w-8 h-8 text-[var(--social)]"
                 viewBox="0 0 98 96" fill="currentColor">
                     <path fillRule="evenodd" clipRule="evenodd"
@@ -19,7 +19,7 @@ export const Footer = () => {
                 </svg>
             </a>
             {/* linkedin logo must be white, black, or blue per Linkedin Brand and User Agreements */}
-            <a href="https://www.linkedin.com/in/jenna-timm-470944259/">
+            <a href="https://www.linkedin.com/in/jenna-timm-470944259/" aria-label="Linkedin Logo">
                 <svg className="w-8 h-8 text-[var(--social)]" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 382 382" fill="currentColor">
                     <path fillRule="evenodd" clipRule="evenodd" 
