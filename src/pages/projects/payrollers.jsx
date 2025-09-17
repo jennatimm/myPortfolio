@@ -10,7 +10,7 @@ export const Payrollers = () => {
     return (<div className="page">
 
         <Banner text="PAYROLLERS" image={profile}/>
-        <div className="page pt-20 z-5">
+        <div className="page pt-40 md:pt-20">
             
             <Block title="Overview" 
             text="For our Database Systems Design project, my team and I built a full-stack
@@ -20,7 +20,8 @@ export const Payrollers = () => {
             Google Cloud Platform, but after the trial ended, I migrated it to InfinityFree.
             This project gave me hands on experience with full-stack development, database
             design, cloud deployment, and effective team collaboration."
-            image={exOne} imgFirst={true}/>
+            image={exOne} imgFirst={true} caption="Disclaimer: This is a simulated website
+            created for a class project and does not represent a real business."/>
 
             <Header text="Challenges and Solutions"/>
             <TextBox 
@@ -58,5 +59,8 @@ export const Payrollers = () => {
             />
         </div>
 
+        {/* <a href="http://payroller.infinityfreeapp.com/">
+            <Header text="Click Here for Project"/> 
+        </a> */}
     </div>);
 };

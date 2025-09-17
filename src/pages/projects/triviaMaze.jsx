@@ -10,7 +10,7 @@ import profile from '../../media/triviamaze/profile.png';
     return (<div className="page">
 
         <Banner text="TRIVIA MAZE" image={profile}/>
-        <div className="page pt-20 z-5">
+        <div className="page pt-40 md:pt-20">
             
             <Block title="Overview" 
             text={[`We were given complete creative freedom with the project, aside from

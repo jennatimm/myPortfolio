@@ -10,7 +10,7 @@ export const RacingGame = () => {
     return (<div className="page">
 
         <Banner text="0xF0" image={profile}/>
-        <div className="page pt-20 z-5">
+        <div className="page pt-40 md:pt-20">
             
             <Block title="Overview" 
             text="For this project, I worked as part of a four-person team to develop a web-based
@@ -47,8 +47,10 @@ export const RacingGame = () => {
             sooner, we could have progressed faster and gained a shared understanding of how the car interacts
             with the map. This would have enabled us to focus more time on the enemy car and ultimately
             improve the project outcome."/>
-
         </div>
 
+        <a href="https://chadob.github.io/0xF0/">
+            <Header text="Click Here to Play"/> 
+        </a>
     </div>);
 };

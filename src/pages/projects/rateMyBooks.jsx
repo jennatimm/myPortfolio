@@ -11,7 +11,7 @@ export const RateMyBooks = () => {
     return (<div className="page">
 
         <Banner text="RATE MY BOOKS" image={profile}/>
-        <div className="page pt-20 z-5">
+        <div className="page pt-40 md:pt-20">
             
             <Block title="Overview" 
             text={[`As part of a senior-level web development course, my team built a full-stack

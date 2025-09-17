@@ -10,7 +10,7 @@ export const CrapsGame = () => {
     return (<div className="page">
 
         <Banner text="CRAPS GAME" image={profile}/>
-        <div className="page pt-20 z-5">
+        <div className="page pt-40 md:pt-20">
             
             <Block title="Overview" 
             text={[`We were given complete creative freedom with the project, aside from
@@ -47,7 +47,7 @@ export const CrapsGame = () => {
             intuitive and user-friendly. It was a challenge to guess all the different ways someone might
             experience or interact with my game. It pushed me to think critically about design decisions
             and build a more robust, thoughtful application. When my next project involved a GUI, I
-            immediately volunteered. I even took the initiative to self teach myself JavaFX so I cOuld
+            immediately volunteered. I even took the initiative to self teach myself JavaFX so I could
             continue growing in this space." 
             image={exTwo} imgFirst={false}/>   
         </div>

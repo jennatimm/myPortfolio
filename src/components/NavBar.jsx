@@ -4,7 +4,8 @@ import { useLocation } from "react-router-dom";
 
 export const NavBar = () => {
     const location = useLocation();
-    const isProjectPage = location.pathname.startsWith("/Projects/");
+    const isProjectPage = location.pathname.startsWith("/Projects/") ||
+    location.pathname.startsWith("/Simulations/");
     return (
         <nav   className={`navbar text-glow text-sm md:text-xl
         text-(--foreground) z-10 ${isProjectPage ? "bg-transparent" : "bg-primary"}`}>
