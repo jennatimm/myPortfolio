@@ -50,9 +50,15 @@ export const RacingGame = () => {
             with the map. This would have enabled us to focus more time on the enemy car and ultimately
             improve the project outcome."/>
 
-            <a href="https://chadob.github.io/0xF0/">
-                <Header text="Play Here (Best experienced in Chrome)"/> 
-            </a>
+            <div className="flex w-3/4 justify-center items-center pt-3">
+                <a href="https://chadob.github.io/0xF0/" className="rounded-lg hover:bg-(--tertiary)">
+                    <Header text="Play Here (Best experienced in Chrome)"/> 
+                </a>
+                <a href="https://github.com/chadob/0xF0" className="rounded-lg hover:bg-(--tertiary)">
+                    <Header text="Github Repository"/> 
+                </a>            
+            </div>
+
         </div>
     </div>);
 };

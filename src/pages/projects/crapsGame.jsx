@@ -52,6 +52,13 @@ export const CrapsGame = () => {
             continue growing in this space." 
             image={exTwo} imgFirst={false}
             alt="Gameplay of a player placing a bet and rolling dice, followed by resetting the game to return to the main menu."/>   
+        
+            <div className="flex w-3/4 justify-center pt-3">
+                <a href="https://github.com/jennatimm/CRAPS-GAME" className="rounded-lg hover:bg-(--tertiary)">
+                    <Header text="Github Repository"/> 
+                </a>            
+            </div>
+        
         </div>
     </div>);
 };

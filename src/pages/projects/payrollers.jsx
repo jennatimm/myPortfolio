@@ -57,11 +57,17 @@ export const Payrollers = () => {
             running on Google Cloud due to a lack of funds, it is successfully hosted on InfinityFree, allowing
             us to continue showcasing our work. This project not only met the requirements but also enhanced
             our learning experience, allowing each team member to engage in all aspects of the development process."
-            />
-        </div>
+            />  
 
-        <a href="http://payroller.infinityfreeapp.com/">
-            <Header text="Click Here for Project"/> 
-        </a>
+            <div className="flex w-3/4 justify-center pt-3">
+                <a href="http://payroller.infinityfreeapp.com/" className="rounded-lg hover:bg-(--tertiary)">
+                    <Header text="Click Here for Project"/> 
+                </a>
+                {/* <a href="">
+                    <Header text="Click Here for Github Repo"/> 
+                </a>             */}
+            </div>
+
+        </div>
     </div>);
 };

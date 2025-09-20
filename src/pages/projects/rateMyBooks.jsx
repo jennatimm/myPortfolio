@@ -74,6 +74,13 @@ export const RateMyBooks = () => {
             knowledge gaps through focused, self-guided research. I also learned how to collaborate across team boundaries
             and contribute meaningfully even when I didn’t have the full picture, something that will be crucial in any
             real-world development environment.`]}/>
+
+            <div className="flex w-3/4 justify-center pt-3">
+                <a href="https://github.com/NathanHinthorne/TCSS-460-Book-Frontend" className="rounded-lg hover:bg-(--tertiary)">
+                    <Header text="Github Repository"/> 
+                </a>            
+            </div>
+
         </div>
 
     </div>);

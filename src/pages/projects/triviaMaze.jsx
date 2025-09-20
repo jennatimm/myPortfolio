@@ -54,7 +54,12 @@ import profile from '../../media/triviamaze/profile.png';
                 stress, but I used the experience to improve my future project management skills. In subsequent
                 projects, like the game design project (0xF0), I proactively reached out to teammates who were
                 falling behind, which helped ensure smoother collaboration and more efficient progress.`]}/>
+        
+            <div className="flex w-3/4 justify-center pt-3 ">
+                <a href="https://github.com/tkr25/A-Trivia-Maze" className="rounded-lg hover:bg-(--tertiary)">
+                    <Header text="Github Repository"/> 
+                </a>            
+            </div>    
         </div>
-
     </div>);
  };

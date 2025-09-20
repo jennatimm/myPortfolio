@@ -15,7 +15,8 @@ export const ThemeToggle = () => {
         setIsDarkMode(!isDarkMode);
     }
 
-return <button onClick={toggle} className="mt-2 mx-0 md: mx-1">
+return <button onClick={toggle} aria-label="theme toggle button" type="button" 
+className="p-2 rounded-4xl hover:bg-(--tertiary) transition-colors duration-[600ms]">
     {isDarkMode ? <Sun className="h-6 w-6 text-(--foreground) drop-shadow-[0_0_6px_var(--primary)]"/> 
     : <Moon className="h-6 w-6 text-(--foreground) drop-shadow-[0_0_6px_var(--primary)]"/>}</button>
 }
