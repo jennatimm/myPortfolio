@@ -2,7 +2,7 @@ import { Banner } from "../../components/Banner";
 import { Block } from "../../components/Block"
 import { Header } from "../../components/Header";
 import { TextBox } from "../../components/TextBox";
-import { NextProject } from "../../components/nextProject";
+import { NextProject } from "../../components/NextProject";
 import exOne from '../../media/craps/colorchange.gif';
 import exTwo from '../../media/craps/gameplayonly.gif';
 import profile from '../../media/craps/profile.png';

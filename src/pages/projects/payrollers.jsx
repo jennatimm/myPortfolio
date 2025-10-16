@@ -2,7 +2,7 @@ import { Banner } from "../../components/Banner";
 import { Header } from "../../components/Header";
 import { Block } from "../../components/Block";
 import { TextBox } from "../../components/TextBox";
-import { NextProject } from "../../components/nextProject";
+import { NextProject } from "../../components/NextProject";
 import exOne from '../../media/payrollers/exOne.gif';
 import exTwo from '../../media/payrollers/ERDiagram.png';
 import profile from '../../media/payrollers/profile.png';

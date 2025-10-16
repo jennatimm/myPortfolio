@@ -2,7 +2,7 @@ import { Banner } from "../../components/Banner";
 import { Header } from "../../components/Header";
 import { Block } from "../../components/Block";
 import { TextBox } from "../../components/TextBox";
-import { NextProject } from "../../components/nextProject";
+import { NextProject } from "../../components/NextProject";
 import exOne from '../../media/racing/controls.gif';
 import exTwo from '../../media/racing/losingRace.gif';
 import profile from '../../media/racing/profile.png';

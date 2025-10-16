@@ -2,7 +2,7 @@ import { Banner } from "../../components/Banner";
 import { Header } from "../../components/Header";
 import { Block } from "../../components/Block";
 import { TextBox } from "../../components/TextBox";
-import { NextProject } from "../../components/nextProject";
+import { NextProject } from "../../components/NextProject";
 import exOne from '../../media/ratemybooks/authorYearSeachBookDelete.gif';
 import exTwo from '../../media/ratemybooks/backendTesting.gif';
 import exThree from '../../media/ratemybooks/addingReview.gif';
