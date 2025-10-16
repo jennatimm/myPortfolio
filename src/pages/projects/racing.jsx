@@ -2,9 +2,11 @@ import { Banner } from "../../components/Banner";
 import { Header } from "../../components/Header";
 import { Block } from "../../components/Block";
 import { TextBox } from "../../components/TextBox";
+import { NextProject } from "../../components/nextProject";
 import exOne from '../../media/racing/controls.gif';
 import exTwo from '../../media/racing/losingRace.gif';
 import profile from '../../media/racing/profile.png';
+import allProjects from '../../data/projects';
 
 export const RacingGame = () => {
     return (<div>
@@ -58,7 +60,7 @@ export const RacingGame = () => {
                     <Header text="Github Repository"/> 
                 </a>            
             </div>
-
+        <NextProject id="2" allProjects={ allProjects }/>
         </div>
     </div>);
 };

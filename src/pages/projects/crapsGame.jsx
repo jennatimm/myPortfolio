@@ -1,11 +1,12 @@
 import { Banner } from "../../components/Banner";
-import { Header } from "../../components/Header";
 import { Block } from "../../components/Block"
+import { Header } from "../../components/Header";
 import { TextBox } from "../../components/TextBox";
+import { NextProject } from "../../components/nextProject";
 import exOne from '../../media/craps/colorchange.gif';
 import exTwo from '../../media/craps/gameplayonly.gif';
 import profile from '../../media/craps/profile.png';
-
+import allProjects from '../../data/projects';
 export const CrapsGame = () => {
     return (<div>
 
@@ -58,7 +59,7 @@ export const CrapsGame = () => {
                     <Header text="Github Repository"/> 
                 </a>            
             </div>
-        
+            <NextProject id={ allProjects.length } allProjects={ allProjects }/>
         </div>
     </div>);
 };

@@ -2,9 +2,11 @@ import { Banner } from "../../components/Banner";
 import { Header } from "../../components/Header";
 import { Block } from "../../components/Block";
 import { TextBox } from "../../components/TextBox";
+import { NextProject } from "../../components/nextProject";
 import exOne from '../../media/triviamaze/startingLosingPlay.gif';
 import exTwo from '../../media/triviamaze/winningPlay.gif';
 import profile from '../../media/triviamaze/profile.png';
+import allProjects from '../../data/projects';
 
  export const TriviaMaze = () => {
     return (<div>
@@ -60,6 +62,7 @@ import profile from '../../media/triviamaze/profile.png';
                     <Header text="Github Repository"/> 
                 </a>            
             </div>    
+            <NextProject id="1" allProjects={ allProjects }/>
         </div>
     </div>);
  };

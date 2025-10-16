@@ -2,9 +2,11 @@ import { Banner } from "../../components/Banner";
 import { Header } from "../../components/Header";
 import { Block } from "../../components/Block";
 import { TextBox } from "../../components/TextBox";
+import { NextProject } from "../../components/nextProject";
 import exOne from '../../media/payrollers/exOne.gif';
 import exTwo from '../../media/payrollers/ERDiagram.png';
 import profile from '../../media/payrollers/profile.png';
+import allProjects from '../../data/projects';
 
 export const Payrollers = () => {
     return (<div>
@@ -67,7 +69,7 @@ export const Payrollers = () => {
                     <Header text="Click Here for Github Repo"/> 
                 </a>             */}
             </div>
-
+            <NextProject id="3" allProjects={ allProjects }/>
         </div>
     </div>);
 };
