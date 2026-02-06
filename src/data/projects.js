@@ -3,6 +3,7 @@ import rateProject from '../media/ratemybooks/profile.png'
 import triviaProject from '../media/triviamaze/profile.png'
 import racingProject from '../media/racing/profile.png'
 import payrollersProject from '../media/payrollers/profile.png'
+import portfolioProject from '../media/portfolio/profile.png'
 
 const allProjects = [
     {
@@ -44,14 +45,14 @@ const allProjects = [
         "route": "Projects/BooksProject",
         "shortRoute" : "BooksProject"
     }
-    // ,
-    // {
-    //     "id": "5",
-    //     "title=": "My Portfolio",
-    //     "image": "", 
-    //     "description": "Built from scratch using React and Tailwind.",
-    //     "route": "",
-    //    "shortRoute" : 
-    // }
+    ,
+    {
+        "id": "5",
+        "title": "My Portfolio",
+        "image": portfolioProject, 
+        "description": "Built from scratch using React and Tailwind.",
+        "route": "Projects/Portfolio",
+        "shortRoute" : "Portfolio" 
+    }
 ]
 export default allProjects;

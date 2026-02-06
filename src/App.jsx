@@ -8,6 +8,7 @@ import { Payrollers } from './pages/projects/payrollers';
 import { RacingGame } from './pages/projects/racing';
 import { RateMyBooks } from './pages/projects/rateMyBooks';
 import { TriviaMaze } from './pages/projects/triviaMaze';
+import { Portfolio } from './pages/projects/portfolio';
 
 import { EvolvingColor } from './pages/simulations/evolvingColors';
 import { GameOfLife } from './pages/simulations/gameOfLife';
@@ -42,6 +43,7 @@ function App() {
             <Route path="Projects/RacingProject" element={<RacingGame/>}/>
             <Route path="Projects/BooksProject" element={<RateMyBooks/>}/>
             <Route path="Projects/TriviaProject" element={<TriviaMaze/>}/>
+            <Route path="Projects/Portfolio" element={<Portfolio/>}/>
             <Route path="Simulations/EvolvingColors" element={<EvolvingColor/>}/>
             <Route path="Simulations/GameOfLife" element={<GameOfLife/>}/>
             <Route path = "*" element={<NotFound/>}/>
