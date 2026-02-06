@@ -41,7 +41,7 @@ export const Portfolio = () => {
             
             <Block title="Design and Technology Choices" 
                 text={[`When building this site, I focused on enhancing my understanding of 
-                    technologies taught in scool, particularly React and JavaScript. 
+                    technologies taught in school, particularly React and JavaScript. 
                     I also introduced myself to new tools like Vite and TailwindCSS. I chose 
                     the build tool Vite for its fast development workflow and the CSS framework 
                     TailwindCSS for its utility-first approach to styling. Throughout the 
